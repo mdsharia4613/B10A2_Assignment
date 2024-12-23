@@ -67,3 +67,12 @@ nav h1{
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 39px;
 }
+
+
+/* responsive media query */
+@media screen and (max-width:576px){
+    .navber, .nav-links{
+        flex-direction: column;
+    }
+    
+}
