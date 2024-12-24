@@ -80,7 +80,6 @@ nav h1{
 
 .header-div-text{
     margin: 71px 0px;
-    border: 1px solid tomato;
     width: 520px;
     height: 280px;
     margin: -50px 0px 20px 80px;
@@ -113,7 +112,15 @@ nav h1{
     /* navber section */
      .nav-links{
         flex-direction: column;
-        
     }
+    .header-div{
+        flex-direction: column;
+    }
+
+    header{
+        height: 1040px;
+        max-width: 576px;
+    }
+
     
 }
