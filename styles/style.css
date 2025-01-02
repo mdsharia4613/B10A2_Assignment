@@ -126,6 +126,30 @@ nav h1{
     
 }
 
+/* main section */
+
+main{
+    width: 1534px;
+    height: 4700px;
+    background: rgb(26, 26, 26);
+}
+.habits{
+    text-align: center;
+    height: 150px;
+}
+.habits h1{
+    color: rgb(255, 255, 255);
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.habits p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
 
 /* responsive media query */
 @media screen and (max-width:576px){
@@ -142,4 +166,11 @@ nav h1{
         max-width: 576px;
     }
 
+/* main section */
+    main{
+        max-width: 576px;
+    }
+    .habits{
+        flex-direction: column;
+    }
 }
