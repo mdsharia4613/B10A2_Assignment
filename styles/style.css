@@ -239,4 +239,10 @@ main{
     .habits-section{
         flex-direction: column;
     }
+
+    .section-2{
+        flex-direction: column;
+        width: auto;
+        height: 750px;
+    }
 }
