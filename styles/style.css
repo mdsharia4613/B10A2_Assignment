@@ -106,6 +106,26 @@ nav h1{
     padding: 16px 40px 16px 40px;
     border-radius: 42px;
 }
+.header-div-img{
+    position: relative;
+}
+.header-div-img-sec-1{
+    width: 206px;
+    height: 96px;
+    left: -100px;
+    top: 456px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    position: absolute;
+}
+.header-div-img-sec-1 h3{
+    color: rgb(250,250,249);
+    
+}
+
 
 /* responsive media query */
 @media screen and (max-width:576px){
@@ -122,5 +142,4 @@ nav h1{
         max-width: 576px;
     }
 
-    
 }
