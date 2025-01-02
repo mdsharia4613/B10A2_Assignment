@@ -150,6 +150,29 @@ main{
     letter-spacing: 0.4px;
 }
 
+.habits-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.habits-section-des{
+    width: 230px;
+
+}
+.habits-section-des img{
+    border-radius: 50%;
+}
+.habits-section-des h3{
+    font-size: 28px;
+    font-weight: 400;
+    color: rgb(255, 255, 255);
+}
+.habits-section-des p{
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 10px;
+}
+
 
 /* responsive media query */
 @media screen and (max-width:576px){
@@ -171,6 +194,10 @@ main{
         max-width: 576px;
     }
     .habits{
+        flex-direction: column;
+    }
+
+    .habits-section{
         flex-direction: column;
     }
 }
