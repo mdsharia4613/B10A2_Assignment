@@ -224,25 +224,30 @@ main{
 
 .training p{
     color: rgba(255, 255, 255, 0.5);
-   font-size: 14px;
+   font-size: 18px;
    font-weight: 400;
    line-height: 24px;
 }
 
 /* section-3 */
 
-.exercise{
-    /* width:auto; */
-    /* height: 2000px; */
-    display: grid;
-    grid-template-columns: 60% 20% 20%;
-    border: 2px solid tomato;
+/* section-4 */
+
+.section-4{
+    text-align: center;
+}
+.section-4 h1{
+    font-size: 48px;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+}
+.section-4 p{
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.5);
+    font-weight: 400;
+    line-height: 24px;
 }
 
-.exercise img{
-    /* width: 320px;
-    height: 218px; */
-}
 /* responsive media query */
 @media screen and (max-width:576px){
     /* navber section */
@@ -274,5 +279,11 @@ main{
         flex-direction: column;
         width: auto;
         height: 750px;
+    }
+    /* section-3 */
+
+    /* section-4 */
+    .section-4 {
+        margin: 10px 15px 20px 15px;
     }
 }
