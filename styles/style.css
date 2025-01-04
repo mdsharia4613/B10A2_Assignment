@@ -326,6 +326,28 @@ input[type=calculator]:hover{
 .team{
     margin-top: 40px;
 }
+/* section-6 */
+.section-6{
+    width: 1200px;
+    height: 650px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-left: 150px;
+    margin-top: 30px;
+}
+
+.container-3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    background: rgba(0, 0, 0, 0.2);
+}
+.container-3 .img{
+    width: 330px;
+    height: 280px;
+    border-radius: 18px;
+    margin:20px 10px 20px 30px ;
+}
+
 
 /* responsive media query */
 @media screen and (max-width:576px){
@@ -345,6 +367,7 @@ input[type=calculator]:hover{
 /* main section */
     main{
         max-width: 576px;
+        height: 5450px;
     }
     .habits{
         flex-direction: column;
@@ -380,6 +403,13 @@ input[type=calculator]:hover{
     }
     .container-2 p{
         margin-bottom: 20px;
-        max-width: 90%;
+        width: 90%;
+    }
+    .container-3{
+        grid-template-columns: repeat(1,1fr);
+        
+    }
+    .container-3 .img{
+        
     }
 }
